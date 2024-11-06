@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from the parent */
+}
+  
+button {
+    cursor: pointer;
+}
+
+ul, ol {
+    list-style: none; /* Remove default list styles */
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    background-color: #0d0733;
+    width: 100vw;
+    padding: 10px 20px;
+}
+
+#deets{
+    gap: 10px;
+    height: 51px;
+}
+
+.rect{
+    width: 33px;
+    height: 38px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#deets h6{
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0;
+}
+
+#deets p{
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    margin: 0;
+}
+
+#alert img{
+    background-color: #2c9bff;
+    border-radius: 5px;
+}
+
+.hamburger-link{
+    display: none;
+}
+
+.landing{
+    /* width: 100%; */
+}
+
+.menu{
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.menu-opt {
+    position: relative;
+}
+
+.menu-opt::before{
+    content: "";
+    width: 4px;
+    height: 22px;
+    color: black;
+    background-color: black;
+    position: absolute;
+    left: -10px;
+}
+
+i{
+    font-size: 19px;
+}
+
+#MenuContent li{
+    padding: 10px;
+}
+
+#MenuContent li a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#MenuContent li:hover{
+    background-color: #D9D9D9;
+    color: #A5946A;
+}
+
+.h{
+    background-color: #D9D9D9;
+    color: #A5946A;
+}
+
+#support{
+    background-color: #0d0733;
+    width: fit-content;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#support button{
+    background-color: #2C9BFF;
+    color: white;
+    border: 0.5px #F2F2F2 solid;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+#support p:first-child{
+    font-weight: 700;
+}
+
+.dash{
+    padding: 0px 50px;
+    border-right: 1px solid gainsboro;
+    margin-top: 20px;
+}
+
+.c-rect{
+    border-bottom-left-radius: 37px;
+    border-bottom-right-radius: 37px;
+    background: linear-gradient(258.53deg, #2C9BFF 1.88%, #237CCC 37.16%, #1A5D99 98.12%);
+    margin-top: 15px;
+    height: fit-content;
+}
+
+.dets{
+    display: none;
+}
+
+.inner-dash{
+    background-color: white;
+    width: 250px;
+    /* height: 130px; */
+    height: fit-content;
+    border-radius: 25px;
+    padding: 10px 15px 15px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+
+.inner-dash p{
+    font-weight: 300;
+    font-size: 9px;
+    color: #383838;
+    /* background-color: green; */
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.inner-dash h6{
+    color: #383838;
+    font-size: 15px;
+    /* background-color: red; */
+}
+
+.inner-dash button{
+    background-color: #2C9BFF;
+    padding: 5px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    border: none;
+    margin-top: 5px;
+}
+
+.c{
+    margin-top: 100px;
+}
+
+.logo img{
+    width: 30%;
+}
+
+.txt{
+    font-size: 12px;
+}
+
+.txt-1{
+    height: 20px;
+}
+
+.txt-1 h6{
+    font-weight: 700;
+}
+
+.txt-1 p{
+    color: #383838;
+}
+
+.txt p{
+    font-weight: 300;
+}
+
+.txt p:nth-child(2){
+    margin: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: transparent; /* Set to transparent if you want to show only the icon color */
+    filter: invert(1); /* Change this to adjust icon color; 1 for white, 0 for black */
+}
+
+.caro{
+    padding: 10px;
+    height: 120px
+}
+
+.media{
+    margin-top: 50px;
+}
+
+.platforms{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px 0 0 10px;
+    gap: 10px;
+    background-color: red;
+}
+
+.logo-container{
+    cursor: pointer;
+    color: #383838;
+    font-size: 12px;
+    font-weight: 300;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container img{
+    width: 20px;
+    height: 20px;
+}
+
+.ent{
+    margin-top: 30px;
+}
+
+.ads{
+    padding: 35px 0;
+}
+
+.y{
+    width: fit-content;
+}
+
+.ad{
+    background-color: #A5946A;
+    width: fit-content;
+}
+
+.text p{
+    margin: 0;
+    font-size: 13px;
+}
+
+.text button{
+    font-size: 10px;
+    padding: 5px 20px;
+}
+
+footer{
+    display: none;
+}
+
+/* Mobile View */
+@media screen and (max-width: 719px) {
+    body{
+        padding-bottom: 70px;
+    }
+
+    nav {
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 20; /* Keep nav above the .menu */
+    }
+
+    .menu {
+        position: fixed;
+        left: -250px; /* Start off-screen */
+        width: 250px; /* Set a width that looks good */
+        height: calc(100vh - 51px); /* Full height minus nav */
+        background-color: #0d0733; /* Same as the nav background */
+        z-index: 10; /* Keep it below the nav */
+        transition: left 0.3s ease; /* Smooth transition effect */
+        overflow-y: auto; /* In case the content overflows */
+    }
+    
+    .menu.open {
+        left: 0; /* Bring the menu into view */
+    }
+
+    #rect, #txt {
+        display: none;
+    }
+
+    .hamburger-link {
+        display: block;
+        padding: 5px;
+    }
+
+    .hamburger {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .hamburger-link:active {
+        transform: scale(0.95);
+        transition: background-color 0.2s, transform 0.2s;
+        border-radius: 50%;
+        background-color: #1a1d32;
+    }
+
+    #support{
+        padding-bottom: 30px;
+    }
+
+    .dash {
+        width: 100%;
+        border-right: none;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .c-rect{
+        margin: 0;
+        height: fit-content;
+        width: 100%;
+        padding: 20px 5px 0 15px;
+    }
+
+    .dets{
+        display: flex;
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .dets #rect, .dets #txt{
+        display: block;
+    }
+    
+    .c{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .caro {
+        padding: 10px; /* Keep padding for mobile */
+        height: 150px; /* Ensure height is flexible */
+    }
+
+    .caro img {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .p, .n{
+        display: none;
+    }
+
+    .g{
+        width: 100%;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .et{
+        width: 100%;
+        grid-template-columns: auto auto auto;
+    }
+
+    .logo-container{
+        font-size: 10px;
+        /* background-color: green; */
+    }
+
+    .ads{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .ad{
+        width: fit-content;
+    }
+
+    footer{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 10px;
+        background-color: white;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+        box-shadow: 0px 0px 4px 0px #00000040;
+    }
+    
+    .foot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foot a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1150px) {
+    body{
+        padding-bottom: 70px;
+    }
+
+    nav {
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 20; /* Keep nav above the .menu */
+    }
+
+    .menu {
+        position: fixed;
+        left: -50%; /* Start off-screen */
+        width: 50%; /* Set a width that looks good */
+        height: calc(100vh - 51px); /* Full height minus nav */
+        background-color: #0d0733; /* Same as the nav background */
+        z-index: 10; /* Keep it below the nav */
+        transition: left 0.3s ease; /* Smooth transition effect */
+        overflow-y: auto; /* In case the content overflows */
+    }
+    
+    .menu.open {
+        left: 0; /* Bring the menu into view */
+    }
+
+    #rect, #txt {
+        display: none;
+    }
+
+    .hamburger-link {
+        display: block;
+        padding: 5px;
+    }
+
+    .hamburger {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .hamburger-link:active {
+        transform: scale(0.95);
+        transition: background-color 0.2s, transform 0.2s;
+        border-radius: 50%;
+        background-color: #1a1d32;
+    }
+
+    .dash{
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    .dets{
+        display: flex;
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .dets #rect, .dets #txt{
+        display: block;
+    }
+
+    .c{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .caro {
+        padding: 10px; /* Keep padding for mobile */
+        height: 150px; /* Ensure height is flexible */
+    }
+
+    .caro img {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .p, .n{
+        display: none;
+    }
+
+    .g{
+        width: 100%;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .et{
+        width: 100%;
+        grid-template-columns: auto auto auto;
+    }
+
+    .ads{
+        width: 50%;
+    }
+
+    footer{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 10px;
+        background-color: white;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+        box-shadow: 0px 0px 4px 0px #00000040;
+    }
+    
+    .foot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .foot a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    
+    .foot a i{
+        font-size: 22px;
+    }
+}
